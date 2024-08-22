@@ -1,2 +1,2 @@
-QDoctorVersion=1.13.40726.1602
+QDoctorVersion=1.13.40822.1704
 
