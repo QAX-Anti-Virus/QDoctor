@@ -36,6 +36,7 @@ assignees: ''
 3. sha1sum of C:\Windows\System32\win32k.sys: 
 4. sha1sum of C:\Windows\System32\win32kbase.sys: 
 5. sha1sum of C:\Windows\System32\win32kbfull.sys:
+6. whether the bug constant reproduced / bug是否稳定复现：
 
 
 
