@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">年轻人的第一款应急响应工具 ；)</p>
-<p align="center"><font size=3>[English Version Document](https://github.com/QAX-Anti-Virus/QDoctor/README.EN.md)</font></p>
+<p align="center"><font size=3><a href="https://github.com/QAX-Anti-Virus/QDoctor/blob/master/README.EN.md">English Version Document</a></font></p>
 
-# 简介 
+# 简介
 
 QDoctor(下文中简称QD)是一款非传统意义上的ARK(Anti RootKit)工具。
 
@@ -20,7 +20,7 @@ QD的日志导出功能可以让普通用户轻松且全面的提取系统各种
 </p>
 
 <p align="center" style="font-size: 20px; font-weight: bold;">
-    [下载地址](https://github.com/QAX-Anti-Virus/QDoctor/releases/download/latest/QDoctor.exe)
+    <a href="https://github.com/QAX-Anti-Virus/QDoctor/releases/download/latest/QDoctor.exe">下载地址</a>
 </p>
 
 # 特色功能
@@ -129,4 +129,3 @@ QD的日志导出功能可以让普通用户轻松且全面的提取系统各种
 
 * [提交项目咨询](https://www.qianxin.com/about/advisory)
 * 客服邮箱：kefu@qianxin.com
-
