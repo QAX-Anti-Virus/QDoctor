@@ -1,2 +1,0 @@
-QDoctorVersion=1.13.40823.1008
-
