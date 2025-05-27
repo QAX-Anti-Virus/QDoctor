@@ -1,5 +1,9 @@
 <p align="center">
-    <img style="box-shadow: none;" alt="QDoctor Logo" src="./image/banner-light.png" width="400px">
+    <picture>
+        <source srcset="./image/banner-light.png" media="(prefers-color-scheme: light)" />
+        <source srcset="./image/banner-dark.png"  media="(prefers-color-scheme: dark)" />
+        <img style="box-shadow: none;" alt="QDoctor Logo"  src="./image/banner-light.png" width="400px" />
+    </picture>
 </p>
 
 <p align="center">Young People's First Emergency Response Tool ;)</p>
