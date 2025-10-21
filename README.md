@@ -6,54 +6,54 @@
     </picture>
 </p>
 
-<p align="center">年轻人的第一款应急响应工具 ；)</p>
-<p align="center"><font size=3><a href="https://github.com/QAX-Anti-Virus/QDoctor/blob/master/README.EN.md">English Version Document</a></font></p>
+<p align="center">Young People's First Emergency Response Tool ;)</p>
+<p align="center"><font size=3><a href="https://github.com/QAX-Anti-Virus/QDoctor/blob/master/README.CN.md">中文版文档</a></font></p>
 
-# 简介
+# Introduction
 
-QDoctor(下文中简称QD)是一款非传统意义上的ARK(Anti RootKit)工具。
+QDoctor (referred as QD below) is an unconventional ARK (Anti RootKit) tool.
 
-QD既覆盖了传统ARK工具的功能，同时又兼顾了应急响应过程中的常见需求。使用此工具可以极大的提高应急处置的效率、快速定位目标环境中潜在的恶意项目所在位置。
+QD not only covers the functionalities of traditional ARK tools but also meets common requirements during the emergency response process. Using this tool can greatly improve the efficiency of emergency handling and quickly locate potential malicious items in the target environment.
 
-QD的日志导出功能可以让普通用户轻松且全面的提取系统各种信息，导入功能则可以让专业人员可以全面掌握导出该日志主机的各项情况进而快速定位系统中的猫腻。
+The log export ability of QD allows ordinary users to easily and comprehensively extract various system information, while the import ability enables professionals to fully understand the conditions of the host from which the logs were exported, thus rapidly identifying suspicious activities within the system.
 
-如果您手头有威胁情报资源，结合QD导出的结构化日志，可以搭建一套自动化威胁分析系统（另外一种形态的沙箱）。
+If you have threat intelligence resources at hand, combined with the structured logs exported by QD, you can build an automated threat analysis system (another form of sandbox).
 
 <p align="center">
-    <img style="box-shadow: none;" alt="QDoctor Logo" src="./screenshot/zh-CN/special-feature.png" width="600px">
+    <img style="box-shadow: none;" alt="QDoctor Logo" src="./screenshot/en-US/special-feature.png" width="600px">
 </p>
 
 <p align="center" style="font-size: 20px; font-weight: bold;">
-    <a href="https://github.com/QAX-Anti-Virus/QDoctor/releases/download/latest/QDoctor.exe">下载地址</a>
+    <a href="https://github.com/QAX-Anti-Virus/QDoctor/releases/download/latest/QDoctor.exe">DOWNLOAD</a>
 </p>
 
-# 特色功能
+# Special Features
 
-1. 一键导出各个标签页下的结构化数据(包括涉及文件的哈希值)。
-2. 一键导入由其他机器导出的数据，方便排查问题。
-3. 单文件同时支持X86、X86_64系统，系统支持较为全面。
-4. 对部分有对抗性的样本具备穿透能力。
+1. Export structured data of information under each tab (including hash values of relevant files) with one-click.
+2. Import exported data from other machines with one-click for convenient troubleshooting.
+3. Single file with supports both X86 and X86_64 architecture.
+4. Capable of penetrating some samples with resistance capabilities.
 
 <p align="center">
-    <img style="box-shadow: none;" alt="QDoctor Logo" src="./screenshot/zh-CN/export.png" width="400px">
+    <img style="box-shadow: none;" alt="QDoctor Logo" src="./screenshot/en-US/export.png" width="400px">
 </p>
 
-# 功能
+# Features
 
-除去上述特色功能外，此工具还有传统的ARK工具常见功能，如下：
+Apart from the above features, this tool also includes common functions found in traditional ARK tools, such as:
 
-* **基本系统信息**：系统MAC地址、系统版本等信息。
-* **自启动项目**：注册表常见启动项、计划任务、服务、驱动、WMI。
-* **进程**：查看进程、线程、模块、内存、句柄、内核回调； 暂停进程或线程执行、查杀进程或线程、卸载模块或内存、关闭句柄、签名验证、Hook扫描。
-* **内核**：驱动模块、已卸载模块、系统回调函数、微过滤驱动、Sfilter过滤驱动、NDIS回调、SSDT表、ShadowSSDT表、DPC定时器、FSD驱动、对象信息、内核工作队列、设备栈、对象目录、键盘驱动、消息钩子。
-* **网络**：查看各个进程的网络连接情况，支持IPv4&IPv6的TCP&UDP连接。
-* **系统补丁**：查看当前系统安装的补丁状况。
-* **软件列表**：查看当前系统安装的软件列表，内容等价于系统“添加删除程序”中显示的内容。
-* **系统日志**：应用程序日志、安全日志、Setup日志、系统日志。
-* **文件系统**：简易文件管理器，可以查看系统各个盘（包括映射到本地的网络位置）下的内容以及强制删除文件。
-* **其他**：环境变量、共享文件夹信息。
+* **Basic system information**: System MAC address, system version, etc.
+* **Startup items**: Common startup items in the registry, scheduled tasks, services, drivers, WMI.
+* **Processes**: View processes, threads, modules, memory, handles, kernel callbacks; pause process or thread execution, terminate processes or threads, unload modules or memory, close handles, signature verification, Hook scanning.
+* **Kernel**: Driver modules, unloaded modules, system callback functions, minifilter drivers, Sfilter drivers, NDIS callbacks, SSDT table, ShadowSSDT table, DPC timers, FSD drivers, object information, kernel work queues, device stacks, object directories, keyboard drivers, message hooks.
+* **Network**: View network connection status of each process, supporting IPv4&IPv6 TCP&UDP connections.
+* **System patches**: View current system patch status.
+* **Software list**: View installed software list on the current system equivalent to what is displayed in "Add or Remove Programs" in system control panel.
+* **System logs**: Application logs, security logs, Setup logs, system logs.
+* **File system**: Simple file manager that can view contents of system drives (including mapped network locations) and forcibly delete files.
+* **Others**: Environment variables, shared folder information.
 
-# 支持系统
+# Supported Systems
 
 * Windows 7   x86 x86_64
 * Windows 8   x86 x86_64
@@ -67,69 +67,68 @@ QD的日志导出功能可以让普通用户轻松且全面的提取系统各种
 * Windows Server 2019    x86_64
 * Windows Server 2022    x86_64
 
-#### 说明：
+#### Note:
 
-0. **由于ARK工具的特殊性，任何使用场景都有蓝屏风险，请注意保存数据**, 我们对该工具造成的数据丢失不承担相关责任。
-1. 由于微软已经停发sha1签名，因此Windows 7、Windows 8系统上，请打对应签名补丁或直接禁用驱动签名认证，否则程序初始化会提示失败，具体细节请参考[此文章](https://support.microsoft.com/zh-cn/topic/%E9%92%88%E5%AF%B9-windows-%E5%92%8C-wsus-%E7%9A%84-2019-sha-2-%E4%BB%A3%E7%A0%81%E7%AD%BE%E5%90%8D%E6%94%AF%E6%8C%81%E8%A6%81%E6%B1%82-64d1c82d-31ee-c273-3930-69a4cde8e64f)
-2. 由于从Windows 10开始，微软使用滚动更新，因此最新版本的系统可能未及时适配。
-3. 该工具为我们日常因工作需求所发展的一套“副产品”，由于所有开发人员均为反病毒人员，因此工具界面比较简陋 T.T
-4. 关于授权有效期的问题：本质上是为了限制黑产，根据我们日常实践经验当前3个月有效期不会对应急有严重影响。如果您有特别的需求，欢迎跟我们的商务进行联系。
-5. 该程序启动后会发起一次到github的更新检查请求，请求的ip地址大概率不位于中国境内，可能会导致防火墙告警。
-6. 该程序被安全软件查杀（包括我司）属于预期内现象，请确认签名完整有效后添加白名单使用。
+0. **Due to the specificity of ARK tools, there is a risk of blue screen in any usage scenario**, please make sure to save your data. We do not assume responsibility for any data loss caused by using this tool.
+1. As Microsoft has ceased issuing SHA-1 signatures, on Windows 7 and Windows 8 systems, please apply the corresponding signature patch or directly disable driver signature verification; otherwise, the program initialization will fail. For more details, refer to [this article](https://support.microsoft.com/en-us/topic/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus-64d1c82d-31ee-c273-3930-69a4cde8e64f).
+2. Since Windows 10, Microsoft has adopted rolling updates, hence the latest system versions may not be promptly adapted.
+3. This tool is a byproduct developed out of our daily work requirements. Given that all developers are antivirus professionals, the tool's interface is relatively simple T.T.
+4. Regarding the issue of authorization validity period: It is essentially aimed at restricting illegal activities of blackhat hackers. Based on our practical experience, a current validity period of three months does not significantly impact emergency response scenarios. If you have specific needs, feel free to contact our business team.
+5. It is expected for this program to be flagged by security software (including ours). Please ensure the signature is complete and valid before adding it to the whitelist for use.
 
-# Bug反馈
+# Bug Reporting
 
-本工具官方反馈地址为:
+Official feedback address for this tool:
 
 [https://github.com/QAX-Anti-Virus/QDoctor/issues](https://github.com/QAX-Anti-Virus/QDoctor/issues)
 
-您可能会在各个论坛看到此文档，但是我们的“运营”人员不一定会关注当前论坛，请务必在上述地址反馈问题。
+You may come across this document on various places, but our people may not necessarily monitor the "current place". Please be sure to report any issues at the address provided above.
 
-# 已知问题
+# Known Issues
 
-1. 内存完整性校验(内核隔离)会导致驱动加载失败，目前暂未解决，如果驱动加载失败请关闭该功能并重启系统后重试。
-2. Inline Hook检测引擎目前对超短函数检测还有问题。
-3. 遍历某些数据时耗时较长(非必现)。
-4. 在Preview版本的系统上某些功能可能获取不到数据。
-5. 目前版本不支持网络路径，例如\\\\192.168.1.1\\QDoctor.exe，请避免在网络路径上直接运行此程序。
+1. Memory integrity checks (kernel isolation) can cause driver loading failures. This issue has not yet been resolved. If the driver fails to load, please disable this feature and restart the system before trying again.
+2. The Inline Hook detection engine currently has issues detecting ultra-short functions.
+3. Traversing certain data may take a long time (not always reproducible).
+4. Some functions may fail to retrieve data on Preview versions of Windows.
+5. The current version does not support network paths, such as \\192.168.1.1\QDoctor.exe. Please avoid running this program directly from a network path.
 
 # One more thing
 
-上面提到，此工具可以一键导出结构化后的各标签页数据。因此，如果你手头有相关资源，完全可以根据需求搭建一套威胁分析系统。
+As mentioned above, this tool can export structured data from all tabs with a single click. Therefore, if you have relevant resources, you can build a threat analysis system tailored to your needs.
 
-下图展示了我们内部利用威胁情报能力发展的一套快速分析系统，安服人员可以将该工具导出的压缩包上传到这套系统快速发现威胁点：
+The image below demonstrates a rapid analysis system we developed internally by leveraging threat intelligence capabilities. Security service personnel can upload the compressed package exported by this tool to the system to quickly identify threat points:
 
 <p align="center">
-    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/zh-CN/analyze-system.png" width="800px">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/analyze-system.png" width="800px">
 </p>
 
-**注意**： 本工具不包含上图系统，该系统具体信息请通过文末《授权》一节的联系方式向我们咨询。
+**Note**: The system shown in the image is not included with this tool. For more information about the system, please contact us using the details provided in the "LICENSE" section at the end of this document.
 
-# 截图（仅部分功能）
-
-<p align="center">
-    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/zh-CN/autostart.png" width="800px">
-</p>
+# Screenshots (Partial Features Only)
 
 <p align="center">
-    <img style="box-shadow: none;" alt="Process" src="./screenshot/zh-CN/process.png" width="800px">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/autostart.png" width="600px">
 </p>
 
 <p align="center">
-    <img style="box-shadow: none;" alt="Process" src="./screenshot/zh-CN/kernel.png" width="800px">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/process.png" width="600px">
 </p>
 
 <p align="center">
-    <img style="box-shadow: none;" alt="Process" src="./screenshot/zh-CN/event.png" width="800px">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/kernel.png" width="600px">
 </p>
 
 <p align="center">
-    <img style="box-shadow: none;" alt="Process" src="./screenshot/zh-CN/filesystem.png" width="800px">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/event.png" width="600px">
 </p>
 
-# 授权
+<p align="center">
+    <img style="box-shadow: none;" alt="Autostart" src="./screenshot/en-US/filesystem.png" width="600px">
+</p>
 
-本工具出于个人用途可在授权时段内免费使用，商业用途请联系我司取得授权，禁止使用本工具从事违反中华人民共和国以及当地法律的犯罪活动。
+# LICENSE
 
-* [提交项目咨询](https://www.qianxin.com/about/advisory)
-* 客服邮箱：kefu@qianxin.com
+This tool is free to use for personal purposes within the authorized time period. For commercial use, please contact our company to obtain authorization. It is prohibited to use this tool for criminal activities that violate the laws of the People's Republic of China and local regulations.
+
+* [Submit Project Inquiry](https://en.qianxin.com/about/contactus)
+* Customer Service Email: GlobalPartner@qianxin.com

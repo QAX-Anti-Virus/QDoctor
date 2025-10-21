@@ -1,0 +1,33 @@
+2025-10-20
+---
+
+## CN:
+
+* FIX: 继续解决蓝屏问题。
+* NEW: 启动项、服务中svchost服务添加服务dll显示列。
+* NEW: 新增进程内存dump功能。
+* IMPROVE: 进程页下方面板默认不再显示（可在右键菜单中重新启用）。
+* IMPROVE: 服务新增PID列。
+
+## EN:
+
+* FIX: resolve BSOD problem.
+* NEW: autostart/service tab, add new column to the service dll when service item is svchost.
+* NEW: add process memory dump ability.
+* IMPROVE: bottom panel of process tab can be hidden now.
+* IMPROVE: add PID column in service tab.
+
+2025-07-09
+---
+
+## CN:
+
+* FIX #7: 解决Minifilter中无效项问题。
+* FIX: 几处蓝屏问题。
+* IMPROVE: 加快导出功能的整体速度。
+
+## EN:
+
+* FIX #7: resolve wrong items in Minifilter.
+* FIX: resolve some BSOD problem.
+* IMPROVE: accelerate export speed.

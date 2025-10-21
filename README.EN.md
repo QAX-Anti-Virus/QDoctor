@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">Young People's First Emergency Response Tool ;)</p>
-<p align="center"><font size=3><a href="https://github.com/QAX-Anti-Virus/QDoctor/blob/master/README.md">中文版文档</a></font></p>
+<p align="center"><font size=3><a href="https://github.com/QAX-Anti-Virus/QDoctor/blob/master/README.CN.md">中文版文档</a></font></p>
 
 # Introduction
 
